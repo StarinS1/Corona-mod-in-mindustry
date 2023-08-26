@@ -1,0 +1,15 @@
+{
+"name": "Navigation-system-failure",
+"captureWave": 25,
+"planet": "erekir",
+"sector": 2,
+"difficulty": 6,
+"research": {
+"parent": "78",
+"objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "78"
+     }
+  ]
+}
