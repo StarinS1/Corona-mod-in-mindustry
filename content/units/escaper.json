@@ -1,0 +1,81 @@
+{
+"outlineColor": "D05AEB",
+"type": "flying",
+"name": "Escaper",
+"template": "ErekirUnitType",   
+"research": {
+"parent": "fabricator-escaper-units",
+"requirements": [
+"silicon/300",
+"graphite/300"
+]
+},    
+"armor": 3,
+"hitSize": 12,
+"squareShape": true,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 7,
+"y": -26,
+"width": 13,
+"height": 48
+}
+],
+"singleTarget": true,
+"omniMovement": true,
+"rotateSpeed": 6,
+"speed": 3.1,
+"flying": true,
+"health": 350,
+"range": 120,
+  "weapons": [
+    {
+      "name": "escaper-weapon",
+      "reload": 18,
+      "x": 4,
+      "y": 2,
+      "top": false,
+      "shootSound": "cavalry-shoot",
+      "ejectEffect": "casing1",
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 2.1,
+        "damage": 20 ,
+        "lifetime": 40,
+        "homingPower": 0.2,
+        "weaveMag": 4,
+        "weaveScale": 4,
+        "shootEffect": "shootSmall",
+        "frontColor": "9639AB",
+        "hitSound": "none",
+        "width": 4,
+        "height": 5,
+        "lightColor": "D05AEB",
+        "trailColor": "D05AEB",
+        "backColor": "D05AEB",
+        "lightRadius": 40,
+        "lightOpacity": 0.7,
+        "trailWidth": 2.2,
+        "trailLength": 18,
+        "trailChance": -1,
+        "despawnEffect": "none",
+        "despawnHit": true,
+        "hitEffect": {
+          "type": "ExplosionEffect",
+          "lifetime": 10,
+          "waveStroke": 1.2,
+          "waveColor": "D05AEB",
+          "sparkColor": "D05AEB",
+          "waveRad": 12,
+          "smokeSize": 0,
+          "smokeSizeBase": 0,
+          "sparks": 8,
+          "sparkRad": 35,
+          "sparkLen": 3,
+          "sparkStroke": 1.2
+       }
+     }
+   }
+  ]
+}

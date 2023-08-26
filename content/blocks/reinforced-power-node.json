@@ -1,0 +1,20 @@
+{
+  "type": "PowerNode",
+  "name": "Reinforced Power Node",
+  "description": "Did you not expect that this is possible on this planet?",
+  "size": 1,
+  "health": 145,
+  "maxNodes": 7,
+ "laserRange": 10,
+ "placeableLiquid": true,
+ "laserColor1": "AADBA6",
+ "laserColor2": "3A8F64",
+  "requirements": [
+    { "item": "oxide", "amount": 5},
+	{ "item": "beryllium", "amount": 15},
+	{ "item": "silicon", "amount": 10},
+	{ "item": "graphite", "amount": 10},
+	],
+  "category": "power",
+  "research": "beryllium-solar-panel"
+}

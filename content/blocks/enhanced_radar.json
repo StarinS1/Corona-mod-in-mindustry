@@ -1,0 +1,29 @@
+{
+"type": "radar",
+"planet": "erekir",
+"name": "Enhanced radar",
+"outlineColor": "4a4b53",
+"fogRadius": 46,
+"envEnabled": 17,
+"envDisabled": 0,
+"consumes":{
+    "power": 2.5
+},
+"requirements": [
+    "silicon/90"
+    "graphite/70"
+    "oxide/45"
+    "tungsten/50"
+],
+"category": "effect",
+"buildVisibility": "fogOnly",
+"research":{
+    "parent": "radar",
+    "requirements": [
+"silicon/1190"
+"graphite/1170"
+"oxide/1125"
+"tungsten/1140"
+  ]
+  }
+ }

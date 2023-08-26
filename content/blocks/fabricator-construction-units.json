@@ -1,0 +1,28 @@
+{
+"type": "UnitFactory",
+"name": "Fabricator Construction Units",
+"size": 3,
+"configurable": false,
+"fogRadius": 3,
+"category": "units",
+"consumes": {
+"power": 2.1
+},
+"plans": [
+{
+    "unit": "pal",
+    	"requirements": [
+        "silicon/60",
+        "graphite/45",
+        "beryllium/20"
+       ],
+    "time": 1900
+  }
+],
+"research": "beryllium-solar-panel",
+"requirements": [
+	{"item": "silicon", "amount": 220},
+	{"item": "beryllium", "amount": 280},
+	{"item": "graphite", "amount": 280}
+]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Reinforced Thermal Generator",
+  "type": "ThermalGenerator",
+  "size": 2,
+  "health": 540,
+  "hasPower": true,
+  "powerProduction": 2.2,
+  "generateEffect": "redgeneratespark",
+  "requirements": [
+    { "item": "beryllium", "amount": 215 },
+    { "item": "silicon", "amount": 125 },
+    { "item": "oxide", "amount": 25 },
+    { "item": "graphite", "amount": 160 }
+  ],
+  "category": "power",
+  "research": "beryllium-solar-panel"
+}

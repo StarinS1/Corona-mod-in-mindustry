@@ -1,0 +1,8 @@
+{
+  "name": "Beryllium infection",
+  "speedMultiplier": 0.8,
+  "damageMultiplier": 0.8,
+  "effect": "melting",
+  "transitionDamage": 2,
+  "damage": 0.34,
+}

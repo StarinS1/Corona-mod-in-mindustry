@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "Plastite",
+  "description": "an analogue of a plastan on erikir.",
+  "cost": 1.5,
+  "color": "#8e8e8f",
+  "tier":2
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Advanced reinforced storage",   
+  "type": "StorageBlock",
+  "size": 2,
+  "hasItems": true,
+  "itemCapacity": 180,
+  "health": 760,
+  "coreMerge": true,
+  "category": "effect",
+  "research": "reinforced-unloader",
+  "requirements": [
+    "beryllium/300",
+    "tungsten/240"
+    "graphite/280"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+"name": "Cargo loader",
+"type": "UnitCargoLoader",
+"size": 2,
+"health": 500,
+"itemCapacity": 80,
+"consumes": {
+  "power": 2,
+  "liquid": "hydrogen/0.05"
+},
+"buildTime": 180,
+"polySides": 2,
+"polyRotateSpeed": 3,
+"polyStroke": 3,
+"unitType": "gecko",
+"category": "distribution",
+"research": {
+    "parent": "beryllium-solar-panel",
+},
+"requirements": [
+  "beryllium/200"
+  "silicon/120"
+  "tungsten/100"
+  "oxide/80"
+  "graphite/150"
+],
+"researchCost": [
+  "beryllium/900"
+  "silicon/750"
+  "tungsten/700"
+  "oxide/500"
+  "graphite/800"
+  ]
+}

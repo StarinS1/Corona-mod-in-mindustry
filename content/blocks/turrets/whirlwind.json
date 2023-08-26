@@ -1,0 +1,63 @@
+{
+"type": "ItemTurret",
+"name": "Whirlwind",
+"reload": 12,
+"shoot": {
+"type": "ShootAlternate",
+"spread": 11.5
+},
+"inaccuracy": 5,
+"coolantMultiplier": 0.7,
+"recoil": 3,
+"shootCone": 12,
+"shootEffect": "lancerLaserShoot",
+"size": 3,
+"health": 2440,
+"range": 255,
+"consumes": {
+"power": 2
+},
+"shake": 3,
+"smokeEffect": "none",
+"shootSound": "laser",
+"ammoTypes": {
+"graphite": {
+"width": 23,
+"height": 58,
+"damage": 70,
+"speed": 7,
+"lifetime": 40.42,
+"pierce": true,
+"pierceBuilding": true,
+"absorbable": false,
+"hittable": false,
+"reflectable": false,
+"backColor": "C11F93",
+"frontColor": "E023AE",
+"hitEffect": "hitLancer",
+"despawnHit": true,
+"trailChance": 1,
+"trailColor": "B71D8B",
+"trailEffect": {
+"type": "ParticleEffect",
+"particles": 10,
+"line": true,
+"length": -40,
+"sizeFrom": 4,
+"sizeTo": 0,
+"strokeFrom": 3,
+"strokeTo": 0,
+"colorFrom": "D321A1",
+"colorTo": "B71D8B",
+}
+}
+},
+"category": "turret",
+"research": "plastite-assembler",
+"requirements": [
+    {"item": "beryllium", "amount": 260},
+    {"item": "silicon", "amount": 260},
+    {"item": "plastite", "amount": 160},
+    {"item": "graphite", "amount": 200}
+  ],
+}

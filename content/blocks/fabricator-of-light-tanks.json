@@ -1,0 +1,27 @@
+{
+"type": "UnitFactory",
+"name": "Fabricator Of Light Tanks",
+"size": 3,
+"configurable": false,
+"fogRadius": 3,
+"category": "units",
+"consumes": {
+"power": 2
+},
+"plans": [
+{
+    "unit": "beryllium_light_tank",
+    	"requirements": [
+        "silicon/20",
+        "beryllium/80"
+       ],
+    "time": 1400
+  }
+],
+"research": "beryllium-solar-panel",
+"requirements": [
+	{"item": "silicon", "amount": 120},
+	{"item": "beryllium", "amount": 300},
+	{"item": "graphite", "amount": 180}
+]
+}

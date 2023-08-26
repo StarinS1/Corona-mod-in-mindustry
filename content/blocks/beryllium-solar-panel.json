@@ -1,0 +1,17 @@
+{
+  "type": "SolarGenerator",
+  "name": "Beryllium Solar Panel",
+  "description": "Analog of a solar panel with Serpulo.",
+  "health": 80,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": false,
+  "powerProduction": 0.62,
+  "requirements": [
+    "graphite/50",
+    "silicon/60",
+    "beryllium/40"
+  ],
+  "category": "power",
+  "research": "vent-condenser"
+}

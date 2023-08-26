@@ -1,0 +1,27 @@
+{
+  "type": "BeamDrill",
+  "name": "Improved Plasma Bore",
+  "description": "It's hard to understand why he's so strong.",
+  "size": 2,
+  "category": "production",
+  "research": "plasma-bore",
+  "requirements": [
+    "beryllium/80",
+    "graphite/60",
+    "silicon/40"
+  ],
+  "tier": 4,
+  "range": 6,
+  "drillTime": 120,
+  "fogRadius": 3,
+  "researchCost": ["beryllium/100"],
+  "consumes": {
+    "power": 0.2,
+    "liquid": {
+      "liquid": "hydrogen",
+      "amount": 0.005,
+      "optional": true,
+      "booster": true
+    }
+  }
+} 

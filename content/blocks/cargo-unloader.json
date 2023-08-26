@@ -1,0 +1,24 @@
+{
+"name": "Cargo Unloader",
+"type": "UnitCargoUnloadPoint",
+"size": 2,
+"health": 300,
+"itemCapacity":85,
+"staleTimeDuration": 15,
+"category": "distribution",
+"research": "cargo-loader",
+"requirements": [
+  "beryllium/200"
+  "silicon/120"
+  "tungsten/100"
+  "oxide/80"
+  "graphite/150"
+],
+"researchCost": [
+  "beryllium/900"
+  "silicon/750"
+  "tungsten/700"
+  "oxide/500"
+  "graphite/800"
+  ]
+}

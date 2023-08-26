@@ -1,0 +1,119 @@
+{
+  "name": "Spearman",
+  "type": "PowerTurret",
+  "size": 4,
+  "health": 480,
+  "reload": 54,
+  "range": 230,
+  "shootLength": 3,
+  "inaccuracy": 5,
+  "shoot": {
+    "type": "ShootPattern",
+    "shotDelay": 4,
+    "shots": 6
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "shootCone": 30,
+  "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "length": 100,
+    "lifetime": 20,
+    "line": true,
+    "cone": 40,
+    "lenFrom": 12,
+    "lenTo": 12,
+    "strokeFrom": 3,
+    "strokeTo": 0.5,
+    "colorFrom": "92DD7E",
+    "colorTo": "3A8F64"
+  },
+  "recoilAmount": 4.5,
+  "restitution": 0.04,
+  "rotateSpeed": 3,
+  "shootSound": "laser",
+  "consumes": {
+    "power": 9
+  },
+  "hasPower": true,
+  "shootType": {
+    "type": "basicBulletType",
+    "sprite": "peircer",
+    "status": "berylliuminfection",
+    "damage": 78,
+    "height": 18,
+    "width": 10,
+    "speed": 6,
+    "lifetime": 60,
+    "pierceBuilding": true,
+    "hitEffect": {
+      "type": "ParticleEffect",
+      "particles": 6,
+      "length": 70,
+      "lifetime": 15,
+      "line": true,
+      "cone": 40,
+      "lenFrom": 9,
+      "lenTo": 9,
+      "strokeFrom": 3,
+      "strokeTo": 0.5,
+      "colorFrom": "92DD7E",
+      "colorTo": "3A8F64"
+    },
+    "despawnEffect": {
+      "type": "ParticleEffect",
+      "particles": 6,
+      "length": 70,
+      "lifetime": 15,
+      "line": true,
+      "cone": 40,
+      "lenFrom": 9,
+      "lenTo": 9,
+      "strokeFrom": 3,
+      "strokeTo": 0.5,
+      "colorFrom": "92DD7E",
+      "colorTo": "3A8F64"
+    },
+    "pierce": true,
+    "trailParam": 5,
+    "trailLength": 19,
+    "trailWidth": 4.3,
+    "trailColor": "92DD7E",
+    "backColor": "92DD7E",
+    "frontColor": "ABFF93"
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 400
+    },
+    {
+      "item": "graphite",
+      "amount": 380
+    },
+    {
+      "item": "oxide",
+      "amount": 330
+    },
+    {
+      "item": "tungsten",
+      "amount": 360
+    },
+    {
+      "item": "silicon",
+      "amount": 365
+    }
+  ],
+  "category": "turret",
+  "research": {
+  "parent": "ancient-beam",
+  "requirements": [
+"beryllium/6400",
+"silicon/5200",
+"graphite/5800",
+"oxide/4200",
+"tungsten/4400",
+  ],
+ }
+}

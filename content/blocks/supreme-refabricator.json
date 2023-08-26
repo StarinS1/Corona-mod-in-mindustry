@@ -1,0 +1,32 @@
+{
+"Name": "Supreme refabricator",
+  "type": "Reconstructor",
+"category": "units",
+  "size": 5,
+  "constructTime": 3700,
+  "consumes": {
+  "power": 8.5,
+  "items": {
+  "items": [
+  "silicon/120",
+  "thorium/100",
+  "oxide/100",
+  "beryllium/110"
+  ]
+  }
+  },
+  
+  "upgrades": [
+    ["rapier", "tiwaz"]
+  ],
+  "research": "rapier",
+   "requirements": [
+        "beryllium/620",
+        "tungsten/420",
+        "silicon/560",
+        "graphite/520",
+        "plastite/250",
+        "oxide/320",
+        "thorium/220",
+  ]
+}

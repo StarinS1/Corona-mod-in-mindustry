@@ -1,0 +1,22 @@
+{
+"name":"plastite-launch-pad",
+"type": "launchPad",
+"size": 3,
+"consumes":{
+    "power": 3.5,
+},
+"itemCapacity": 300,
+"launchTime": 100,
+"hasPower": true,
+"category": "effect",
+"buildVisibility":"campaignOnly",
+"research": {
+    "parent": "armored-duct",
+},
+"requirements": [
+ "beryllium/300"
+ "graphite/245"
+ "silicon/290"
+ "plastite/160"
+]
+}

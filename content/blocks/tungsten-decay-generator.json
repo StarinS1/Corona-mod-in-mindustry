@@ -1,0 +1,44 @@
+{
+"type": "ConsumeGenerator",
+"name": "Tungsten decay generator",
+"requirements": [
+"beryllium/240",
+"silicon/120",
+"oxide/70",
+"tungsten/80",
+"graphite/110",
+],
+"size": 2,
+"powerProduction": 8,
+"itemDuration":"600",
+"generateEffect": "redgeneratespark",
+"drawer": {
+"type": "DrawMulti",
+"drawers": [
+{
+"type": "DrawDefault",
+},
+{
+"type": "DrawWarmupRegion",
+},
+],
+},
+"category": "power",
+"consumes": {
+    "items": [
+    "beryllium/2"
+    "tungsten/1"
+    ]
+},  
+ "research": {
+	"parent": "beryllium-solar-panel",
+	"requirements": [
+"beryllium/3400",
+"silicon/2200",
+"graphite/1800",
+"oxide/1200",
+"tungsten/3400",
+	],
+  }
+
+}

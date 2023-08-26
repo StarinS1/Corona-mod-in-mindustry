@@ -1,0 +1,38 @@
+{
+  "name": "Giver",
+  "description": "An giver that can be built anywhere on the map and transfers all items that are inputted directly to the main core.",
+  "health": 1200,
+  "size": 3,
+  "solid": true,
+  "update": true,
+  "itemCapacity": 5,
+  "hasItems": true,
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 700
+    },
+    {
+      "item": "silicon",
+      "amount": 550
+    },
+    {
+      "item": "oxide",
+      "amount": 420
+    },
+    {
+      "item": "tungsten",
+      "amount": 700
+    },
+    {
+        "item": "graphite",
+        "amount": 600
+    },
+    {
+      "item": "plastite",
+      "amount": 500
+    }
+  ],
+  "category": "effect",
+  "research": "tungsten-decay-generator"
+}

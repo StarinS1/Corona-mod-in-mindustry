@@ -1,0 +1,58 @@
+{
+  "type": "tank",
+  "name": "Rapier",
+  "template": "ErekirUnitType", 
+  "description": "An interesting development equipped with a railgun and it is fast enough at the same time.",
+  "hitSize": 18,
+  "treadPullOffset": 5,
+  "speed": 0.85,
+  "rotateSpeed": 3,
+  "health": 1850,
+  "armor": 8,
+  "treadRects": [
+    {
+      "x": 13,
+      "y": -38,
+      "width": 17,
+      "height": 76
+    }
+  ],
+  "singleTarget": false,
+  "omniMovement": false,
+  "faceTarget": false,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "name": "rapier-weapon",
+      "shootSound": "bolt",
+      "layerOffset": 0.0001,
+      "reload": 22,
+      "shootY": 10,
+      "recoil": 2,
+      "rotate": true,
+      "rotateSpeed": 1.5,
+      "mirror": false,
+      "shootCone": 4,
+      "heatColor": "f9350f",
+      "cooldownTime": 30,
+      "bullet": {
+        "width": 5,
+        "type": "LaserBulletType",
+        "length": 160,
+        "damage": 32,
+        "pierceBuilding": true,
+        "laserAbsorb": false,
+        "buildingDamageMultiplier": 1.9,
+        "lifetime": 30,
+        "hitColor": "97F296",
+        "hitEffect": "hitBulletColor",
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "lightningCharge",
+        "backColor": "92DD7E",
+        "frontColor": "AEDBAD",
+      }
+    }
+  ],
+  "research": "refabricator-of-light-tanks"
+}

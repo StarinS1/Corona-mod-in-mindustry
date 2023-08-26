@@ -1,0 +1,8 @@
+{
+"type":"cellliquid",
+"Name": "Mellarium",
+"description": "the composition of this liquid is kept in the strictest secret",
+"isLiquid": true,
+"cache": "water",
+"color": "db32d2"
+}

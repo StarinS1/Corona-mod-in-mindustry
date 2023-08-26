@@ -1,0 +1,69 @@
+{
+"outlineColor": "D05AEB",
+"type": "flying",
+"name": "Deportator",
+"template": "ErekirUnitType",   
+"research": {
+"parent": "refabricator-escaper-units",
+"requirements": [
+"silicon/300",
+"graphite/300"
+]
+},    
+"armor": 3,
+"hitSize": 12,
+"squareShape": true,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 7,
+"y": -26,
+"width": 13,
+"height": 48
+}
+],
+"singleTarget": true,
+"omniMovement": true,
+"rotateSpeed": 6,
+"speed": 2.8,
+"flying": true,
+"health": 850,
+"range": 120,
+  "weapons": [
+    {
+      "name": "deportator-missiles",
+      "reload": 80,
+      "x": 7,
+      "rotate": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 7
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 5,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 20,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+        "splashDamageRadius": 28,
+        "splashDamage": 26,
+        "lifetime": 50,
+        "trailColor": "D05AEB",
+        "backColor": "D05AEB",
+        "frontColor": "9639AB",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    }
+  ]
+}

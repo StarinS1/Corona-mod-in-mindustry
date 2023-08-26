@@ -1,0 +1,72 @@
+{
+  "type": "flying",
+  "name": "Pal",
+  "template": "ErekirUnitType",
+  "description": "Great buddy. he will always help and will not give up",
+  "research": "fabricator-construction-units",
+  "details": "Are you sure he won't betray you?",
+    "abilities": [
+    {
+      "type": "RepairFieldAbility", 
+      "range": 40, 
+      "amount": 2, 
+      "reload": 160, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 60, 
+        "colorFrom": "84f491", 
+        "colorTo": "62ae7f"
+      }
+    },
+  ],
+  "omniMovement": true,
+  "mineSpeed": 6.2,
+  "mineWalls": true,
+  "mineFloor": true,
+  "mineTier": 5,
+  "canAttack": false,
+  "buildSpeed": 1.789,
+  "canAttack": false,
+  "engineColor": "92DD7E",
+  "engineColorInner": "3A8F64",
+  "armor": 1,
+  "lowAltitude": true,
+  "canHeal": true,
+  "itemCapacity": 65,
+  "speed": 3.9,
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "health": 250,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "weapons": [
+    {
+      "name": "repair-beam-weapon",
+      "reload": 7,
+      "x": 4,
+      "y": 2,
+      "top": false,
+      "shootSound": "shoot",
+      "ejectEffect": "casing1",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 2.5,
+        "damage": 10 ,
+        "lifetime": 55,
+        "healPercent": 5,
+        "collidesTeam": true,
+        "homingPower": 0.2,
+        "weaveMag": 3,
+        "weaveScale": 3,
+        "shootEffect": "shootSmall",
+        "frontColor": "e48d1a",
+        "hitSound": "none",
+        "width": 8,
+        "height": 10,
+        "despawnEffect": "none",
+        "despawnHit": true,
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plastite assembler",
+  "description": "creates an analog of plastan.",
+  "craftEffect": "none",
+  "requirements": [
+    {"item": "beryllium", "amount": 260},
+    {"item": "silicon", "amount": 260},
+    {"item": "tungsten", "amount": 160},
+    {"item": "graphite", "amount": 200}
+  ],
+  "research": "beryllium-solar-panel",
+  "category": "crafting",
+  "outputItem": {
+    "item": "plastite", 
+    "amount": 3
+  },
+  "craftTime": 60,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": false,
+  "itemCapacity": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt" 
+      }
+    ]
+  },
+  "fogRadius": 5,
+  "researchCost": [
+    {"item": "beryllium", "amount": 860},
+    {"item": "silicon", "amount": 660},
+    {"item": "tungsten", "amount": 660},
+    {"item": "graphite", "amount": 390}
+  ],
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.14,
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {"item": "tungsten", "amount": 1.2}
+       ]
+     },
+     "liquid": {
+     "liquid": "mellarium",
+     "amount": 0.2
+    }
+  }
+}

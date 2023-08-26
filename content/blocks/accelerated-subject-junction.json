@@ -1,0 +1,15 @@
+{
+ "type": "junction", 
+ "name": "Accelerated subject junction",  
+ "health": 250, 
+ "speed": 0.75, 
+ "capacity": 5, 
+ "size": 1, 
+ "requirements": [
+	"beryllium/8",
+	"graphite/8",
+	"tungsten/8"
+ ],
+ "research": "accelerated-subject-duct",
+ "category": "distribution"
+ }

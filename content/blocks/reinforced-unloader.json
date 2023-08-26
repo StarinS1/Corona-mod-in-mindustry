@@ -1,0 +1,18 @@
+{
+  "type": "Unloader" ,
+  "name": "reinforced-Unloader",
+  "description": "An unloader that unloads items way faster than the normal one and can also buffer some items.",
+  "size": 1,
+  "itemCapacity": 20,
+  "speed": 3,
+  "category": "effect",
+ "research": {
+    "parent": "armored-duct",
+},
+"requirements": [
+ "beryllium/300"
+ "graphite/245"
+ "silicon/290"
+ "plastite/160"
+]
+}

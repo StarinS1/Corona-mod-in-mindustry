@@ -1,0 +1,15 @@
+{
+	"type": "Duct",
+	"name": "Accelerated subject duct",
+	"description": "Fast duct. Made from tungsten.",
+	"health": 250,
+	"requirements": [
+	"beryllium/3",
+	"graphite/3",
+	"tungsten/3"
+	],
+	"category": "distribution",
+	"speed": 2.7,
+	"displayedSpeed": 2.7,
+	"research": "advancedreinforcedstorage"
+}

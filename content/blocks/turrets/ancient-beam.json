@@ -1,0 +1,80 @@
+{
+  "name":"Ancient beam",
+  "type": "ItemTurret",
+  "size": 3,
+  "health": 900,
+  "maxAmmo": 100,
+  "ammoPerShot": 10,
+  "reload": 155,
+  "range": 500,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 5,
+  "recoilAmount": 7,
+  "restitution": 0.2,
+  "shootSound": "railgun",
+  "ammoUseEffect": "casing3",
+  "ammoTypes": {
+    "tungsten": {
+      "type": "pointBulletType",
+      "damage": 460,
+      "speed": 460,
+      "ammoMultiplier": 15,
+      "pierce": true,
+      "collidesTiles": true,
+      "trailEffect": "instTrail",
+      "trailSpacing": 20,
+      "hitEffect": "instBomb",
+      "smokeEffect": "shootBig2"
+    },
+    "beryllium": {
+      "type": "pointBulletType",
+      "status": "berylliuminfection",
+      "damage": 360,
+      "speed": 460,
+      "ammoMultiplier": 5,
+      "pierce": true,
+      "collidesTiles": true,
+      "trailEffect": "instTrail",
+      "trailSpacing": 20,
+      "hitEffect": "instBomb",
+      "smokeEffect": "shootBig2"
+    }
+  },
+  "consumes": {
+    "power": 5
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 300
+    },
+    {
+      "item": "graphite",
+      "amount": 220
+    },
+    {
+      "item": "oxide",
+      "amount": 240
+    },
+    {
+      "item": "tungsten",
+      "amount": 120
+    }
+  ],
+  "category": "turret",
+  "research": {
+	"parent": "whirlwind",
+	"requirements": [
+"beryllium/4400",
+"silicon/3200",
+"graphite/3800",
+"oxide/2200",
+"tungsten/3400",
+  ],
+ }
+}

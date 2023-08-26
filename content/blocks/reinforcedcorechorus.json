@@ -1,0 +1,30 @@
+{
+  "type": "CoreBlock",
+  "name": "Reinforced core <<Chorus>>",
+  "size": 5,
+  "researchCostMultiplier": 0.6,
+  "health": 13000,
+  "itemCapacity": 3500,
+  "requirements": [
+    { "item": "beryllium","amount": 2000},
+    { "item": "silicon","amount": 2000},
+    { "item": "graphite","amount": 1900},
+    { "item": "oxide","amount": 1800},
+    { "item": "tungsten","amount": 1600},
+    { "item": "plastite","amount": 1100}
+  ],
+  "category": "effect",
+  "research": {
+    "parent": "plastite-assembler",
+    "requirements": [
+      "beryllium/8000",
+      "silicon/8000",
+      "graphite/7900",
+      "oxide/7800",
+      "tungsten/7600",
+      "plastite/7100"
+    ]
+  },
+  "unitType": "creator",
+  "unitCapModifier": 17
+}

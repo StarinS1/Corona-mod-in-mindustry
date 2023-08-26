@@ -1,0 +1,29 @@
+{
+"type": "UnitFactory",
+"name": "Fabricator-verose-Units",
+"size": 3,
+"configurable": false,
+"fogRadius": 3,
+"category": "units",
+"consumes": {
+"power": 2.1
+},
+"plans": [
+{
+    "unit": "verose",
+    	"requirements": [
+        "oxide/20",
+        "graphite/45"
+        "silicon/45"
+       ],
+    "time": 1400
+  }
+],
+"research": "beryllium-solar-panel",
+"requirements": [
+	{"item": "silicon", "amount": 220},
+	{"item": "beryllium", "amount": 280},
+	{"item": "graphite", "amount": 280}
+    {"item": "oxide", "amount": 220}
+]
+}

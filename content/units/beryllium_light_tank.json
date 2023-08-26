@@ -1,0 +1,79 @@
+{
+"outlineColor": "4A4B53",
+"type": "tank",
+"name": "Beryllium Light Tank",
+"template": "ErekirUnitType",   
+"research": {
+"parent": "fabricator-of-light-tanks",
+"requirements": [
+"silicon/300",
+"beryllium/300"
+]
+},    
+"armor": 6,
+"hitSize": 12,
+"squareShape": true,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 7,
+"y": -26,
+"width": 14,
+"height": 51
+}
+],
+"singleTarget": true,
+"omniMovement": false,
+"rotateSpeed": 2,
+"speed": 1.2,
+"flying": false,
+"health": 450,
+"range": 120,
+"weapons": [
+  {
+  "name": "beryllium_light_tank-weapon",
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "inaccuracy": 9,
+    "rotateSpeed": 5,
+    "cooldownTime": 40,
+    "shootY": 8,
+    "reload": 9,
+    "recoil": 1,
+    "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-glow",
+    "layer": -1,
+    "mirror": true,
+    "blending": "additive",
+    "color": "3A8F64",
+    "colorTo": "3A8F64",
+    "outline": false,            
+    "mirror": true,
+    "progress": "warmup"
+    }
+    ],
+    "shootSound": "shoot",
+    "bullet": {
+    "type": "basicBulletType",
+    "sprite" : "missile-large",
+    "shootEffect": "shootBig2",
+    "hitEffect": "hitBulletSmall",
+    "despawnHit": true,
+    "lifetime": 18,
+    "damage": 15,
+    "speed": 5.2,
+    "trailLength": 8,
+    "trailWidth": 1.5,
+    "width": 4,
+    "height": 9,
+    "trailColor": "92DD7E",
+    "backColor": "92DD7E",
+    "frontColor": "AEDBAD",
+     }
+  }
+]
+}

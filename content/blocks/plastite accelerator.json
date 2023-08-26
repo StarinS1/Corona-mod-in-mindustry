@@ -1,0 +1,24 @@
+{
+	"name":"Plastite accelerator",
+	"description": "using its plastite body, it emits accelerating pulses.",
+    "type":"OverdriveProjector",
+    "size": 3,
+    "health": 300,
+    "range": 200,
+    "reload": 1,
+    "speedboost":"300",
+    "usetime":8,
+    "phase":"c3005d",
+    "color":"850542",
+    "consumes":{
+    	"power": 4.6,
+    },
+      "requirements": [
+  "beryllium/200"
+  "silicon/120"
+  "plastite/100"
+  "graphite/150"
+],
+      "category": "effect",
+      "research": "plastite-assembler",
+}
